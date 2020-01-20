@@ -1,5 +1,6 @@
 FROM ubuntu
 
+#Commentaire pour "nouvelle" version
 RUN apt update
 RUN apt -y install python python-pip vim
 RUN pip install flask
